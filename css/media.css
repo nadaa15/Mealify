@@ -1,0 +1,196 @@
+
+@media screen and (max-width:1029px)
+{
+    .navBar .container nav .bar{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .navBar .container nav ul{
+        display: none;
+    }
+    .navBar .container nav div{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:960px)
+{
+    .header .container{
+        display: block;
+    }
+    .header .container .content{
+        width: 100%;
+        text-align: center;
+    }
+    .header .container .content .btn{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .header .container .image{
+        width: 100%;
+    }
+
+    .gallerySec{
+        height: 180vh;
+    }
+    .gallery{
+        height: 300vh;
+        -ms-grid-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        -ms-grid-rows: repeat(8,1fr);
+        grid-template-rows: repeat(8,1fr);
+    }
+    .gallery-item{
+        grid-area: auto;
+    }
+    .footer{
+        height: 700px;
+    }
+    .footer .container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 20px;
+    }
+    .footer .about{
+        width: 100%;
+    }
+    .footer .subscribe{
+        width: 100%;
+    }
+    .inTouch{
+        width: 100%;
+    }  
+
+}
+@media screen and (max-width:760px)
+{
+    .chef_cards{
+        padding-block: 30px;
+        display: block;
+        
+    }
+    .chef_cards .card{
+        width: 90%;
+        margin-bottom: 50px;
+        margin-inline: auto;
+    }
+     .gallerySec{
+        height: auto;
+    }
+    .gallery{
+        -ms-grid-columns: none;
+        grid-template-columns: none;
+        -ms-grid-rows: none;
+        grid-template-rows: none;
+        padding-bottom: 100px;
+
+    }
+    .gallery-item{
+        grid-area: auto;
+    }
+    .item5{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .item1{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .item3{
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+    .item6{
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+    .item7{
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+    .contact_details{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 10px;
+    }
+    .contact_details .item{
+        width: 100%;
+    }
+    form .one{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .contactSec .form form .one input{
+        width: 100%;    
+    }
+    .footer{
+        height: 900px;
+    }
+}
+
+
+
+@media screen and (max-width:500px)
+{
+    .header .container .content .btn{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 30px;
+    }
+   
+    .subscribe .email{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 10px;
+    }
+    .subscribe .email input{
+    width: 80%;
+    }
+    .subscribe .email button{
+    width: 80%;
+    }
+}
