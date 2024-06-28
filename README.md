@@ -10,4 +10,4 @@ This project is a responsive restaurant web page built using HTML, CSS, and Boot
 - **Dark Mode**: Toggle between light and dark themes with a simple switch using **:has** pseudo-class and **:checked** selector.
 
 ## For live demo please click the link:
-[https://nadaa15.github.io/Mealify/]
+<https://nadaa15.github.io/Mealify/>
